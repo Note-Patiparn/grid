@@ -1,0 +1,39 @@
+.a-pokemon {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0.5em;
+}
+
+.a-pokemon * {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.a-pokemon-id {
+    background: floralwhite;
+    grid-column: span 2;
+}
+.a-pokemon-name {
+    grid-column: span 5;
+    background: cadetblue;
+    font-size: 1.3rem;
+}
+.a-pokemon-type {
+    background-color: darkgray;
+    grid-column: span 5;
+    font-size: 1.3rem;
+}
+.a-pokemon-stat {
+    background: darkseagreen;
+    grid-column: span 3;
+}
+.my-pokedex {   
+    padding: .5em;
+}
+.a-pokemon-multi-langauge-name {
+    grid-column: span 4;
+    background: cornflowerblue;
+}

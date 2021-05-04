@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.tv-show {
+    background-color: darkgray;
+    margin: 1.3em;
+    padding: 1em;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 2rem 13rem auto;
+    text-align: center;
+    gap: .2em;
+}
+.tv-show-title {
+    grid-column: span 4;
+}
+.tv-show-summary {
+    grid-column: span 4;
+    font-size: 1rem;
+    overflow-y: auto;
+}
+.tv-show-season {
+    font-size: 1.1rem;
+    padding: .1em;
+    border: 1px solid black;
+    background:darkolivegreen;
+    color: white;
+}

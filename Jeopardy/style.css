@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+    
+                        
+}
+
+.board * {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+}
+.my-category-title {
+    background: darkgray;
+    grid-row: 1;
+    text-transform: uppercase;
+}
+.my-cate-clue {
+    font-size: 1.6rem;
+}
